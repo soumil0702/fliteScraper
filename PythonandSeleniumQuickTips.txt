@@ -3,6 +3,8 @@ Write XPATH tips here
 
 if your xpath starts with a '*' it means we are not specifying a particular element like input, button,etc , we are specifying all elements in  the page
 
+Useful link regarding changing ids:https://stackoverflow.com/questions/22767739/handle-elements-that-have-changing-ids-all-the-time-through-selenium-webdriver
+
 Using Spreadsheets API:
 Follow the video properly from Twilio on youtube in my playlist. make sure to grant access to both gdrive and spreadsheets
 
