@@ -1,3 +1,6 @@
+
+Write XPATH tips here
+
 if your xpath starts with a '*' it means we are not specifying a particular element like input, button,etc , we are specifying all elements in  the page
 
 Using Spreadsheets API:
