@@ -1,0 +1,286 @@
+1558137810188	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Firefox Developer Edition\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\soumi\\AppData\\Local\\Temp\\rust_mozprofile.rN9EHINs5aqG"
+1558137811141	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1558137811141	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1558137811141	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1558137813375	Marionette	INFO	Listening on port 64859
+1558137813428	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Parent 13592, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1557744770/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 12020, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1557744770/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 12020, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1557744770/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Parent 13592, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1557744770/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 16100, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1557744770/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 16100, [Parent 13592, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1557744770/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 10728, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1557744770/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 11558137827571	Marionette	INFO	Stopped listening on port 64859
+[GPU
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1558187090612	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Firefox Developer Edition\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\soumi\\AppData\\Local\\Temp\\rust_mozprofile.fowOZAZVc8bZ"
+1558187091898	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1558187091899	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1558187091899	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1558187095128	Marionette	INFO	Listening on port 58942
+1558187095554	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: http://%(server)s/dummy/blocklist//buckets/monitor/collections/changes/records?_expected=%221558124838908%22 is not a valid URL..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:208:13
+
+JavaScript error: resource://devtools/client/framework/toolbox.js, line 1436: TypeError: currentPanel is undefined
+console.error: "Error while calling actor 'layout's method 'getGrids'" "node is null"
+console.error: "getGrids@resource://devtools/server/actors/layout.js:443:26\ngetGrids@resource://devtools/server/actors/layout.js:448:43\ngetGrids@resource://devtools/server/actors/layout.js:448:43\nhandler@resource://devtools/shared/protocol.js:1189:37\nonPacket@resource://devtools/server/main.js:1291:58\nreceiveMessage@resource://devtools/shared/transport/child-transport.js:66:16\n"
+console.warn: "Error while detaching the thread front: 'detach' request packet to 'server1.conn0.child1/context18' can't be sent as the connection is closed."
+[Parent 5880, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1557744770/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 8664, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1557744770/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 8664, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1557744770/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc[, line 341
+Child 10352, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1557744770/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 10352, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1557744770/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line [Child 11324, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1557744770/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 11324, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1557744770/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+1558187655459	Marionette	INFO	Stopped listening on port 58942
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1558188655424	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Firefox Developer Edition\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\soumi\\AppData\\Local\\Temp\\rust_mozprofile.19dE2gpx9kPL"
+1558188656620	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1558188656620	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1558188656620	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1558188660242	Marionette	INFO	Listening on port 61434
+1558188660356	Marionette	WARN	TLS certificate errors will be ignored for this session
+1558188678952	Marionette	INFO	Stopped listening on port 61434
+[Parent 10092, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1557744770/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 10208, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1557744770/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 10208, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1557744770/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Parent 10092, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1557744770/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+[Parent 10092, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1557744770/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 6156, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1557744770/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child[GPU 1
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1558188700092	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Firefox Developer Edition\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\soumi\\AppData\\Local\\Temp\\rust_mozprofile.3ay9sSoWIADX"
+1558188700953	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1558188700953	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1558188700953	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1558188704380	Marionette	INFO	Listening on port 61546
+1558188704442	Marionette	WARN	TLS certificate errors will be ignored for this session
+1558188722092	Marionette	INFO	Stopped listening on port 61546
+[Parent 11924, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1557744770/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 4712, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1557744770/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+[Parent 11924, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1557744770/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+[GPU 
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1558302717655	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Firefox Developer Edition\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\soumi\\AppData\\Local\\Temp\\rust_mozprofile.Kh8sFAxnWA9T"
+1558302718814	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1558302718814	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1558302718815	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1558302721270	Marionette	INFO	Listening on port 57734
+1558302721509	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Child 10400, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1557744770/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 2428, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1557744770/build/src/ipc/chromium/src/chrome/common/ipc_c1558302765824	Marionette	INFO	Stopped listening on port 57734
+[GPU 
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1558302783289	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Firefox Developer Edition\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\soumi\\AppData\\Local\\Temp\\rust_mozprofile.9q9UdZxs2HXS"
+1558302784095	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1558302784097	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1558302784097	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1558302787491	Marionette	INFO	Listening on port 57951
+1558302787639	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: http://%(server)s/dummy/blocklist//buckets/monitor/collections/changes/records?_expected=%221558124838908%22 is not a valid URL..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:208:13
+
+[Child 19944, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1557744770/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 19944, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1557744770/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 16624, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1557744770/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Parent 21476, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1557744770/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+1558303138124	Marionette	INFO	Stopped listening on port 57951
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv,1558303140699	Marionette	INFO	Listening on port 58631
+1558303140887	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.warn: "Error while detaching the thread front: 'detach' request packet to 'server1.conn0.child1/context18' can't be sent as the connection is closed."
+[Parent 21240, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1557744770/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler return1558303657373	Marionette	INFO	Stopped listening on port 59537
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+sg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+[Parent 21240, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1557744770/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Parent 21240, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1557744770/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+1558303656916	Marionette	INFO	Stopped listening on port 58631
+[GPU 20552, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1557744770/build/src/ipc/chromium/src/
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1558303670083	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Firefox Developer Edition\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\soumi\\AppData\\Local\\Temp\\rust_mozprofile.ReAlp5HdYWBg"
+1558303671286	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1558303671287	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1558303671287	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1558303676900	Marionette	INFO	Listening on port 59783
+1558303677021	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Child 1396, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1557744770/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Parent 21420, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1557744770/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Parent 21420, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1557744770/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 15128, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1557744770/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 151558303696162	Marionette	INFO	Stopped listening on port 59786
+[GPU 8116, Chr
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+

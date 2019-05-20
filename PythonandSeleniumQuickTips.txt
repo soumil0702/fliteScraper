@@ -1,0 +1,34 @@
+if your xpath starts with a '*' it means we are not specifying a particular element like input, button,etc , we are specifying all elements in  the page
+
+Using Spreadsheets API:
+Follow the video properly from Twilio on youtube in my playlist. make sure to grant access to both gdrive and spreadsheets
+
+Some simple commands:
+scope= ['https://spreadsheets.google.com/feeds', 'https://www.googleapis.com/auth/drive']
+creds=ServiceAccountCredentials.from_json_keyfile_name('client_secret.json',scope)
+client=gspread.authorize(creds)
+sheet=client.open('flitescraper').sheet1
+#pp=pprint.PrettyPrinter()
+#result=sheet.get_all_records();
+#pp.pprint(result)
+
+#result=sheet.row_values(4) #comment this its only for printing row contents of row 3
+#result=sheet.col_values(3)
+#sheet.update_cell(7,10,3)
+#result=(sheet.cell(7,10).value)+'Jheezy'
+
+#to add your own row:
+row=["I'm", "updating", "a ", "sheet","using", "pythonning"]
+index=90;
+#sheet.insert_row(row,index)
+#sheet.delete_row(3)
+sheet.update_cell(2,10,strftime("%H:%M - %d-%m-%Y" ))
+print(sheet.row_count)
+
+Can also refer to this link :https://github.com/burnash/gspread
+
+
+Using Email with Python:
+Just use the code as is but make sure to disable the allow less secure apps to use from gmail settings: https://myaccount.google.com/lesssecureapps?utm_source=google-account&utm_medium=web&hl=en
+
+
