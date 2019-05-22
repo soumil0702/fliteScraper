@@ -35,7 +35,7 @@ def scrapeResults(driver,city_from, city_to, date_start, date_end,moreResults):
 #    time.sleep(10)
     #Try catch for closing the initial popup
 
-    time.sleep(10) 
+    #time.sleep(10) uncomment this if code aint working
     try:
         sounds_good='//*[contains(@id,"soundsGood")]'  #try to debug this shite
         myElem = WebDriverWait(driver, 2).until(EC.presence_of_element_located((By.XPATH, sounds_good)))
@@ -55,16 +55,17 @@ def scrapeResults(driver,city_from, city_to, date_start, date_end,moreResults):
            print("Loading.....")
    
     try:
-        driver.find_element_by_xpath('//*[@id="common-icon-x-icon"]/path').click()
+        shite='//*[@id="common-icon-x-icon"]/path'
+        driver.find_element_by_xpath(shite).click()
         print('Shite popup found')
         
     except :
         print("Loading.....")
         
     try:
-        driver.find_element_by_xpath('//div[contains(@class,"visible")]//div//div//*[contains(@id,"dialog-close")]').click()
-        print('Email asking popup found')
-        
+        emailPop='//div[contains(@class,"visible")]//div//div//*[contains(@id,"dialog-close")]'
+        driver.find_element_by_xpath(emailPop).click()
+        print('Email asking popup found')        
     except:
         print("Loading.....")
 
@@ -81,7 +82,7 @@ def scrapeResults(driver,city_from, city_to, date_start, date_end,moreResults):
 #    driver.find_element_by_xpath('//a[contains(@id,"loadMore")]').click()
     time.sleep(10)
     driver.find_element_by_xpath(loadMore).click()
-    time.sleep(10)
+   # time.sleep(10) #uncomment this if code aint working
     #sys.exit()
     if(moreResults):
         #I think it would be better if we scroll to the bottom before the two lines below because sometimes its not able to click the more results
@@ -103,7 +104,8 @@ def scrapeResults(driver,city_from, city_to, date_start, date_end,moreResults):
     time.sleep(10)
     print("******************************Extracting Prices*****************************")
     
-    priceList=driver.find_elements_by_xpath('//a[contains(@id,"booking-link") and not (contains(@id,"extra-info")) and (contains(@role,"option"))]/span[1]')
+    priceXpath='//a[contains(@id,"booking-link") and not (contains(@id,"extra-info")) and (contains(@role,"option"))]/span[1]'
+    priceList=driver.find_elements_by_xpath(priceXpath)
     #testList=driver.find_elements_by_xpath('//a[@class="booking-link"]/span[@class="price option-text"]')# this is how the Brazilian dude from Medium does it...same thing really
     #span_elem=driver.find_elements_by_class_name('price option-text')
     

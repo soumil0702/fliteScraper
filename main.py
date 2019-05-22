@@ -27,7 +27,8 @@ from currentPrices import getPriceStats
 #from tempo import driver  #for some reason if you enable this its also running tempo first and then this script
 
 #Selenium starts here
-driver=webdriver.Chrome("C:/Users/soumi/.jenkins/workspace/python_test/flight_scraper_Eclipse/chromedriver.exe")
+pathWebdriver="D:/Academic_Software/Eclipse/python/FliteScraperProject/python_test/flight_scraper_Eclipse/chromedriver.exe"
+driver=webdriver.Chrome(pathWebdriver)
 #driver=webdriver.Chrome() #use this if the chromedriver exists in the Python folder, else use the above line
 #driver=webdriver.Firefox()
 #driver.set_page_load_timeout(10) #uncomment this na
