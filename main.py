@@ -6,7 +6,6 @@ import gspread
 import pprint
 from time import sleep, strftime
 from random import randint
-
 from oauth2client.service_account import ServiceAccountCredentials
 from selenium import webdriver
 import time
@@ -28,19 +27,26 @@ from currentPrices import getPriceStats
 
 #Selenium starts here
 pathWebdriver="D:/Academic_Software/Eclipse/python/FliteScraperProject/python_test/flight_scraper_Eclipse/chromedriver.exe"
+
+#The next two lines are to force incognito mode to open .See if it works though!
+#chrome_options = webdriver.ChromeOptions()
+#chrome_options.add_argument("--incognito")
+
 driver=webdriver.Chrome(pathWebdriver)
+#driver = webdriver.Chrome(options=chrome_options)
+
 #driver=webdriver.Chrome() #use this if the chromedriver exists in the Python folder, else use the above line
 #driver=webdriver.Firefox()
 #driver.set_page_load_timeout(10) #uncomment this na
 driver.maximize_window()
 
 moreRes=None#Enable this if you want to extract more results
-truncated=True# Disable this if you want many results
+truncated=True# Disable this if you don't want many results
 #url="https://www.kayak.de/flights/MUC-DEL/2019-05-21-flexible/2019-05-24-flexible?sort=price_a"
 cityFrom="MUC"
 cityTo="DEL"
-dateStart="2019-05-28"
-dateEnd="2019-06-07"
+dateStart="2022-05-05"
+dateEnd="2022-06-07"
 url=('https://www.kayak.de/flights/' + cityFrom + '-' + cityTo +
              '/' + dateStart + '-flexible/' + dateEnd + '-flexible?sort=price_a')
 old_lowest,old_avg=getPriceStats()

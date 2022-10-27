@@ -25,6 +25,7 @@ from symbol import testlist
 def scrapeResults(driver,city_from, city_to, date_start, date_end,moreResults):
     url=('https://www.kayak.de/flights/' + city_from + '-' + city_to +
              '/' + date_start + '-flexible/' + date_end + '-flexible?sort=price_a')
+    time.sleep(10); # See if enabling this makes a difference to avoiding CAPTCHA!
     driver.get(url)
     print('\n Navigating to url %s \n' % url)
     #sounds_good=driver.find_element_by_xpath('//*[@id="nP60-soundsGood"]')
@@ -35,7 +36,7 @@ def scrapeResults(driver,city_from, city_to, date_start, date_end,moreResults):
 #    time.sleep(10)
     #Try catch for closing the initial popup
 
-    #time.sleep(10) uncomment this if code aint working
+    time.sleep(10) #uncomment this if code aint working
     try:
         sounds_good='//*[contains(@id,"soundsGood")]'  #try to debug this shite
         myElem = WebDriverWait(driver, 2).until(EC.presence_of_element_located((By.XPATH, sounds_good)))
@@ -104,7 +105,10 @@ def scrapeResults(driver,city_from, city_to, date_start, date_end,moreResults):
     time.sleep(10)
     print("******************************Extracting Prices*****************************")
     
-    priceXpath='//a[contains(@id,"booking-link") and not (contains(@id,"extra-info")) and (contains(@role,"option"))]/span[1]'
+ #   priceXpath='//a[contains(@id,"booking-link") and not (contains(@id,"extra-info")) and (contains(@role,"option"))]/span[1]'
+    
+    priceXpath='//a[contains(@id,"booking-link") and not (contains(@id,"extra-info")) and (contains(@role,"option"))]/span[contains(@class,"price")]'
+
     priceList=driver.find_elements_by_xpath(priceXpath)
     #testList=driver.find_elements_by_xpath('//a[@class="booking-link"]/span[@class="price option-text"]')# this is how the Brazilian dude from Medium does it...same thing really
     #span_elem=driver.find_elements_by_class_name('price option-text')
@@ -123,6 +127,7 @@ def scrapeResults(driver,city_from, city_to, date_start, date_end,moreResults):
     #print(testList)
     #write if else st. for the case when the currency is in usd!
     parsedList= [price.text.replace('\u20ac','') for price in priceList if price.text != ''] # this command is basically removing euro symbol and getting rid of the blank entries
+    print(parsedList)
     parsedList = list(map(int, parsedList)) #converting str to int
     parsedListTest=parsedList
     print('Len(parsedListTest) = %d, Len(parsedList)= %d'%(len(parsedListTest),len(parsedList)))
@@ -135,6 +140,7 @@ def scrapeResults(driver,city_from, city_to, date_start, date_end,moreResults):
     print("******************************Extracting Dates and Days*****************************")
     xp_dates = '//div[@class="section date"]'
     dates = driver.find_elements_by_xpath(xp_dates)
+    print(dates)
     dates_list = [value.text for value in dates]
     out_date_list = dates_list[::2]
     ret_date_list = dates_list[1::2]
@@ -167,8 +173,10 @@ def scrapeResults(driver,city_from, city_to, date_start, date_end,moreResults):
     schedules=[]
     xp_schedule = '//div[@class="section times"]'
     schedules = driver.find_elements_by_xpath(xp_schedule)
+    print(schedules)
     sch_list = [value.text for value in schedules]
-    
+    print('schlist is:')
+    print(type(sch_list))
     hours_list = []
     carrier_list = []
     print("Schedules is of length %d" % len(schedules))
